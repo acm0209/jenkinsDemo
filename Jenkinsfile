@@ -7,6 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                echo "202206071116"
             }
         }
         stage('Test') {
